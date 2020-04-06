@@ -47,6 +47,12 @@ footer a:hover {
 
   }
 
+@media screen and (min-width: 577px) {
+    ul {
+      padding-right: 3em;
+    }
+  }  
+
 @media (min-width: 576px) {
     .jumbotron {
         padding: 6rem 2rem 2rem 2rem!important;
