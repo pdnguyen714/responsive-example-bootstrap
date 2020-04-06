@@ -1,3 +1,58 @@
-body {
-    background-color: black;
+* {
+  font-family: 'Gotu', sans-serif;
 }
+
+body {
+  background-color: #2b5050;
+}
+
+a {
+  color: #c2c4c6;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.jumbotron h1, p {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #fbe0b9;
+  margin-top: 5em;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer a:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .jumbotron {
+      margin: 5em 0 1em 0!important;
+    }
+
+  }
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 6rem 2rem 2rem 2rem!important;
+    }
+
+    .carousel-inner {
+      height: 31em;
+    }
+  }
